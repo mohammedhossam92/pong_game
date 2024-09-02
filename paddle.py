@@ -20,9 +20,3 @@ class Paddle(Turtle):
     def paddle_down(self):
         new_y = self.ycor() - 20
         self.goto(self.xcor(), new_y)
-
-# my trial to solve the position without calling it in main module
-# class Paddle2(Paddle):
-#     def __init__(self):
-#         position = -350
-#         super().__init__(position)
